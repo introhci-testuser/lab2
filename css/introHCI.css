@@ -5,16 +5,26 @@
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 5px dotted red;
+     padding: 10px;
 }
+
+.project {
+  margin-left: 20px;
+}
+
+#project3, #project6, #project8 {
+  font-variant: small-caps;
+}
+
+
 
 .jumbotron {
 	position: relative;
@@ -30,5 +40,5 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
